@@ -131,6 +131,8 @@ a, .botonesmenu {
     background-color: rgba(255, 228, 196, 0.596);
     border-radius: 10%;
     margin: 10px;
+    overflow: hidden;
+    
 }
 .productos img {
     margin: 20px;
