@@ -38,27 +38,22 @@ body {
     display: flex;
     flex-direction: row;
     margin-right: 10px;
+    padding: 5px;
     justify-content: space-between;
 }
 
 .carrito {
     align-items: flex-start;
-    padding: 5px;
     margin-left: 20px;
-    border-radius: 10px;
-    background-color: rgba(155, 151, 151, 0.771);
-    height: 30px;
 }
 
-.h2singin {
+button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     overflow: visible;
     margin-right: 10px;
     padding: 5px;
-    border-radius: 10px;
-    background-color: rgba(155, 151, 151, 0.771);
     height: 30px;
 }
 .h2singup {
