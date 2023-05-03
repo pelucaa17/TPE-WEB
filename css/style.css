@@ -81,12 +81,14 @@ nav {
     display: flex;
     flex-direction: row;
     color: white;
+    overflow: hidden;
 }
 
 .menuder {
     display: flex;
     flex-direction: row;
     color: white;
+    overflow: hidden;
 }
 
 a, .botonesmenu {
@@ -98,12 +100,24 @@ a, .botonesmenu {
     font-size: 120%;
     color: white;
     text-decoration: none;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.botonesmenu:hover {
+    transform: scale(1.2);
 }
 
 .logo {
     height: 100px;
     background-color: rgba(255, 255, 255, 0.771);
     border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.logo:hover {
+    transform: scale(1.2);
 }
 
 .seccion {
