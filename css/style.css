@@ -144,15 +144,21 @@ a, .botonesmenu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .producto {
     background-color: rgba(255, 228, 196, 0.596);
     border-radius: 10%;
     margin: 10px;
-    overflow: hidden;
-    
+    transition: 0.5s;
+    object-fit: cover;
 }
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
 .productos img {
     margin: 20px;
     height: 300px;
@@ -171,9 +177,9 @@ a, .botonesmenu {
 }
 
 .footer {
-    background-color: #24262b;
+    background-color: #24262bad;
     padding: 15px 0;
-    
+    margin-top: 30px;
 }
 
 .footer-row {
