@@ -80,6 +80,7 @@ nav {
     margin-top: 15px;
     background-color: rgba(0, 0, 0, 0.814);
     width: 100%;
+    z-index: 1;
 }
 
 .menuizq {
@@ -153,6 +154,7 @@ a, .botonesmenu {
     margin: 10px;
     transition: 0.5s;
     object-fit: cover;
+    z-index: 0;
 }
 
 .producto:hover {
