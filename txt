@@ -1,0 +1,36 @@
+            <div class="flip-card-producto">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/mate3.webp" alt="Mate ganador black">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="images/mate3.webp" alt="Mate ganador black">
+                        <h3 class="txtproducto">Mate ganador blue</h3>
+                        <h1 class="txtproducto">USD$ 20</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card-producto">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/mate3.webp" alt="Mate ganador black">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="images/mate3.webp" alt="Mate ganador black">
+                        <h3 class="txtproducto">Mate ganador blue</h3>
+                        <h1 class="txtproducto">USD$ 20</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card-producto">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/mate3.webp" alt="Mate ganador black">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="images/mate3.webp" alt="Mate ganador black">
+                        <h3 class="txtproducto">Mate ganador blue</h3>
+                        <h1 class="txtproducto">USD$ 20</h1>
+                    </div>
+                </div>
+            </div>
