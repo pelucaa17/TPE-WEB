@@ -62,7 +62,6 @@ button {
     background: #FFFFFF;
     border: none;
     padding: 10px 20px;
-    font-size: 15px;
     font-weight: 600;
     width: 120px;
     text-transform: uppercase;
@@ -138,7 +137,12 @@ a, .botonesmenu {
     object-fit: cover;
 }
 
-.botonesmenu:hover {
+a {
+    color: #000;
+
+}
+
+.botonesmenu:hover,.logo:hover {
     transform: scale(1.2);
 }
 
@@ -150,9 +154,7 @@ a, .botonesmenu {
     object-fit: cover;
 }
 
-.logo:hover {
-    transform: scale(1.2);
-}
+
 
 .seccion {
     display: flex;
@@ -175,6 +177,12 @@ a, .botonesmenu {
     flex-wrap: wrap;
     overflow: hidden;
 }
+.producto-precio {
+    text-align: center;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 
 .container-form {
     width: 100%;
@@ -183,6 +191,7 @@ a, .botonesmenu {
     justify-content: center;
     align-items: center;
 }
+
 
 .form {
 
@@ -315,12 +324,20 @@ a, .botonesmenu {
   }*/
 
 .producto {
-    background-color: rgba(255, 228, 196, 0.596);
-    border-radius: 10%;
+    background-color: #ffffffbf;
     margin: 10px;
     transition: 0.5s;
     object-fit: cover;
     z-index: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.resaltador {
+    text-decoration: line-through;
+    color: #000000aa;
+    font-size: 13px;
+    font-family: sans-serif;
 }
 
 .producto:hover {
@@ -328,10 +345,11 @@ a, .botonesmenu {
 }
 
 .productos img {
-    margin: 20px;
-    height: 200px;
-    width: 150px;
-    border-radius: 10%;
+    cursor: pointer;
+    margin: 25px;
+    height: 300px;
+    width: 220px;
+    border-radius: 5%;
     flex-direction: row;
     justify-content: center;
 }
@@ -339,6 +357,8 @@ a, .botonesmenu {
 .txtproducto {
     display: flex;
     justify-content: center;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .container {
