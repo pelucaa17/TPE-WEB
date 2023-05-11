@@ -61,6 +61,7 @@ body {
 button {
     background: #FFFFFF;
     border: none;
+    border-radius: 0.5rem;
     padding: 10px 20px;
     font-weight: 600;
     width: 120px;
@@ -83,6 +84,7 @@ button::before {
     right: 0;
     left: 0;
     background: #00C3FF;
+    border-radius: 0.5rem;
     opacity: 0;
     z-index: -1;
     transition: all 0.5s;
@@ -195,7 +197,7 @@ a {
 
 .form {
 
-    background-color: #fff;
+    background-color: #131212ce;
     width: 30%;
     height: 50%;
     display: flex;
@@ -211,7 +213,7 @@ a {
     line-height: 1.75rem;
     font-weight: 600;
     text-align: center;
-    color: #000;
+    color: #FFFFFF;
   }
   
   .input-container {
@@ -241,7 +243,7 @@ a {
     padding-bottom: 0.75rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    background-color: #4F46E5;
+    background-color: #060607;
     color: #ffffff;
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -252,13 +254,14 @@ a {
   }
   
   .signup-link {
-    color: #6B7280;
+    color: #FFFFFF;
     font-size: 0.875rem;
     line-height: 1.25rem;
     text-align: center;
   }
   
   .signup-link a {
+    color: #ffffff;
     text-decoration: underline;
   }
 
