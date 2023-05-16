@@ -5,12 +5,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
+    
     
 }
+
+ol{
+    text-align: center;
+    color: #00C3FF;
+    background-color: red;
+}
+
 body {
     font-family: sans-serif;
-    background-image: url(../images/Yerba-Mate-Fondo.jpeg);
+    background-image: url(../images/fondomate4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,8 +162,6 @@ a {
     transition: 0.5s;
     object-fit: cover;
 }
-
-
 
 .seccion {
     display: flex;
@@ -373,6 +378,7 @@ a {
     background-color: #24262bad;
     padding: 15px 0;
     margin-top: 30px;
+    
 }
 
 .footer-row {
@@ -383,7 +389,7 @@ a {
 .footer-links {
     width: 25%;
     padding: 0 15px;
-}
+}   
 
 .footer-links h4{
     font-size: 20px;
