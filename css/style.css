@@ -5,14 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
-}
-
-ol{
-    text-align: center;
-    color: #00C3FF;
-    background-color: red;
 }
 
 body {
@@ -193,7 +185,14 @@ a {
 
 .container-form {
     width: 100%;
-    height: 700px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form-register {
+    width: 100%;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,6 +218,10 @@ a {
     font-weight: 600;
     text-align: center;
     color: #FFFFFF;
+  }
+
+  .input-login:focus {
+    border: 2px solid #00C3FF;
   }
   
   .input-container {
