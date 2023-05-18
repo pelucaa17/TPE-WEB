@@ -43,40 +43,42 @@
         <a href="termos.html"><h2 class="botonesmenu">Termos</h2></a> 
         <a href="combos.html"><h2 class="botonesmenu">Combos</h2></a> 
     </nav>
-
     <div class="container-form-register">
-    <form class="form">
-        <p class="form-title">Register your account</p>
-        <div class="input-container">
-            <input type="text" placeholder="Nombre" class="input-name">
-       </div>
-       <div class="input-container">
-        <input type="text" placeholder="Apellido" class="input-apellido">
-   </div>
-         <div class="input-container">
-           <input type="email" placeholder="Enter email" class="input-login">
-           <span>
-           </span>
-       </div>
-       <div class="containerpwsub">
-        <div class="input-container">
-           <input type="password" placeholder="Enter password" class="input-signup">
-         </div>
-          <button type="submit" class="submit">
-         Sign up
-       </button>
-       </div>
-       
- 
-       <p class="signup-link">
-         Ya tienes una cuenta?
-         <a href="login.html">Sign in</a>
-       </p>
-    </form>
-</div>
- 
-
-
+        <form class="form">
+            <p class="form-title">Register your account</p>
+            <div class="input-container">
+                <input type="text" placeholder="Nombre" class="input-name">
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Apellido" class="input-apellido">
+            </div>
+            <div class="input-container">
+                <input type="email" placeholder="Enter email" class="input-login">
+            </div>
+            <div class="containerpwsub">
+                <div class="input-container">
+                    <input type="password" placeholder="Enter password" class="input-signup">
+                </div>
+            </div>
+            <div class="captcha">
+                <label for="captcha-input">Enter Captcha</label>
+                <div class="preview"></div>
+                <div class="captcha-form">
+                    <input type="text" id="captcha-form" placeholder="Enter captcha text">
+                        <button class="captcha-refresh">
+                            <i class="fa fa-refresh"></i>
+                        </button>
+                </div>
+            </div>
+             <div class="form-imput">
+                <button type="submit" class="submit" id="signup-btn"> Sign up </button>
+            </div>
+            <p class="signup-link">
+                Ya tienes una cuenta?
+                <a href="login.html">Sign in</a>
+            </p>
+        </form>
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="footer-row">
