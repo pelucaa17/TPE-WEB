@@ -492,3 +492,9 @@ td {
 .social-link a:hover {
     background-color: #00C3FF;
 }
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    color: #c7bfbf;
+}
